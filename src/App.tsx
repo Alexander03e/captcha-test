@@ -6,7 +6,7 @@ function App() {
 
   return ( 
     <div>
-      {token && <><p>token: <span style={{whiteSpace: "wrap", color: "red"}}>{token}</span></p><br /></>}
+      {token && <><p>token: <span style={{ color: "red"}}>{token}</span></p><br /></>}
       
       <SmartCaptcha 
         sitekey="ysc1_PLzNIMA5rFE9dXkEXdHAsbaPb20qFaGZ9GQsk17K5ae9fb61" 
