@@ -10,7 +10,7 @@ function App() {
       
       <SmartCaptcha 
         sitekey="ysc1_PLzNIMA5rFE9dXkEXdHAsbaPb20qFaGZ9GQsk17K5ae9fb61" 
-        onJavascriptError={(e) => console.log(`JS Error: ${e}`)} 
+        onJavascriptError={(e) => console.log(`JS Error:`, e)} 
         onNetworkError={() => console.info(`NETWORK ERROR`)}
         onSuccess={setToken} 
       />
